@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Suscripcion</h1>
+    <form action="./registroExitoso.html" method="GET">
+        <div>
+            <label for="firstname">Nombre</label>
+            <input type="text" name="firstname" id="firstname">
+        </div>
+        <div> 
+            <label for="lastname">Apellido</label>
+            <input type="text" name="lastname" id="lastname">
+        </div>
+        <div> 
+            <label for="age">Edad</label>
+            <input type="text" name="age" id="age">
+        </div>
+        <div>
+            <label for="birthdate">Fecha de nacimiento</label>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="gender">Genero</label>
+            <input type="radio" id="gender1" name="gender" value="male" />
+            <label for="genderchoice1">Masculino</label>
+
+            <input type="radio" id="gender2" name="gender" value="female" />
+            <label for="genderchoice2">Femenino</label>
+
+            <input type="radio" id="gender3" name="gender" value="nobinary" />
+            <label for="genderchoice3">No Binario</label>
+        </div>
+        <div>
+            <label for="city">Ciudad</label>
+            <select name="city" id="city">
+                <option value="rosario">Rosario</option>
+                <option value="sanLorenzo">San Lorenzo</option>
+                <option value="buenosAires">Buenos Aires</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Suscribirse</button>
+            <button type="reset">Limpiar</button>
+        </div>   
+    </form>
+</body>
+</html>
