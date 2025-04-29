@@ -1,0 +1,14 @@
+# DESARROLLO Y ARQUITECTURAS WEB
+**CLASE 01**
+Creacion del readme
+
+**CLASE 02**
+Extraccion de noticia sin CSS
+
+**CLASE 03**
+Controles en formulario
+
+**CLASE 04**
+Extraccion de noticia nueva y aplicado de CSS basico
+
+URL ORIGINAL: https://www.rosarionoticias.gob.ar/page/noticias/id/570807/title/Arbolado%3A-cuadrillas-del-municipio-contin%C3%BAan-con-las-intervenciones-de-poda-y-escamonda-

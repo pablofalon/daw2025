@@ -1,0 +1,44 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+h1 {
+    background-color: cornflowerblue;
+}
+.footer-link {
+    color: #F6921E;
+}
+.newsPhotos {
+    width: 50%;
+}
+.container {
+    width: 100%;
+}
+.neighboor-name {
+    font-style: oblique;
+    text-decoration: underline;
+}
+#newsTitle {
+    font-family: 'Montserrat';
+    font-size: 40px 
+}
+#footer-linkList {
+    list-style: none;
+}
+#bodyNews p {
+    font-family: Karla;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.45px;
+    margin-bottom: 25px;
+    max-width: 660px;
+}
+#logo-header img {
+    width: 330px;
+}
