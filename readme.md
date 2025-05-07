@@ -12,3 +12,6 @@ Controles en formulario
 Extraccion de noticia nueva y aplicado de CSS basico
 
 URL ORIGINAL: https://www.rosarionoticias.gob.ar/page/noticias/id/570807/title/Arbolado%3A-cuadrillas-del-municipio-contin%C3%BAan-con-las-intervenciones-de-poda-y-escamonda-
+
+**CLASE 05**
+Se replica la noticia de la clase04 para aplicar media queries. Tambien se utiliza normalize.css
