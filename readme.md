@@ -15,3 +15,6 @@ URL ORIGINAL: https://www.rosarionoticias.gob.ar/page/noticias/id/570807/title/A
 
 **CLASE 05**
 Se replica la noticia de la clase04 para aplicar media queries. Tambien se utiliza normalize.css
+
+**CLASE 06**
+Se genera una noticia dentro cuyo contenido es responsive. Incluye flexbox y media queries. Se utiliza normalize.css
