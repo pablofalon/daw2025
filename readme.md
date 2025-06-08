@@ -18,3 +18,9 @@ Se replica la noticia de la clase04 para aplicar media queries. Tambien se utili
 
 **CLASE 06**
 Se genera una noticia dentro cuyo contenido es responsive. Incluye flexbox y media queries. Se utiliza normalize.css
+
+**CLASE 07**
+Examen
+
+**CLASE 06**
+Se agrega formulario con validaciones en JS.
