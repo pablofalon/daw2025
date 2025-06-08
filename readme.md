@@ -22,5 +22,5 @@ Se genera una noticia dentro cuyo contenido es responsive. Incluye flexbox y med
 **CLASE 07**
 Examen
 
-**CLASE 06**
+**CLASE 08**
 Se agrega formulario con validaciones en JS.
