@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.content{
+  width: 100%;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.page-header {
+	background-color:grey;
+	color: #fff;
+	padding: 1.5rem;
+	border-radius: 8px;
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+#searchForm {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); 
+	gap: 1rem;
+	max-width: 900px;
+	margin: 0 auto 2rem;
+}
+.form-buttons {
+	grid-column: span 3;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.page-header h1 {
+	margin: 0;
+	font-size: 2rem;
+}
+
+.page-header p {
+	margin: 0.5rem 0 0;
+	font-size: 1rem;
+}
+
+input,
+select,
+textarea,
+button {
+	padding: 0.5rem;
+	margin-right: 10px;
+	border: 1px black solid;
+	border-radius: 10px;
+	font-size: 1rem;
+}
+
+input:focus {
+	border-color: #007BFF;
+	outline: none;
+}
+
+.characters-list {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 0.5rem;
+	margin-top: 1rem;
+}
+
+.character {
+	background-color: antiquewhite;
+	border: 1px solid #ccc;
+	padding: 1rem;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.error {
+	color: red;
+	margin-top: 1rem;
+}
+
+.img-character {
+	width: 100px;
+}

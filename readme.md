@@ -27,3 +27,6 @@ Se agrega formulario con validaciones en JS.
 
 **CLASE 10**
 Formulario con envio de datos a servicio externo. 
+
+**CLASE 11**
+Consulta de Servicio Rest y listado de informacion obtenida.
