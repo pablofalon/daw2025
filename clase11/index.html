@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 11</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <div class="content">
+        <header class="page-header">
+        <h1>Base de datos de Rick and Morty</h1>
+        <p>Busca informacion de tu personaje favorito</p>
+    </header>
+        <form action="" id="searchForm">
+            <input type="text" id="name" placeholder="Nombre">
+            <select id="status" name="status">
+                <option value="">Estado</option>
+                <option value="alive">Alive</option>
+                <option value="dead">Dead</option>
+                <option value="unknown">Unknown</option>
+            </select>
+
+            <select id="species" name="species">
+                <option value="">Especie</option>
+                <option value="human">Human</option>
+                <option value="alien">Alien</option>
+                <option value="humanoid">Humanoid</option>
+                <option value="poopybutthole">Poopybutthole</option>
+                <option value="mythological creature">Mythological Creature</option>
+                <option value="animal">Animal</option>
+                <option value="robot">Robot</option>
+                <option value="cronenberg">Cronenberg</option>
+                <option value="disease">Disease</option>
+                <option value="unknown">Unknown</option>
+            </select>
+
+            <select id="type" name="type">
+                <option value="">Tipo</option>
+                <option value="">(sin tipo)</option>
+                <option value="Parasite">Parasite</option>
+                <option value="Superhuman">Superhuman</option>
+                <option value="Time traveler">Time traveler</option>
+                <option value="Vampire">Vampire</option>
+            </select>
+
+            <select id="gender" name="gender">
+                <option value="">Género</option>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="genderless">Genderless</option>
+                <option value="unknown">Unknown</option>
+            </select>
+            <div class="form-buttons">
+                <button type="submit" id="filterBtn">Buscar</button>
+                <button type="button" id="getAllBtn">Ver todos</button>
+                <button type="reset" id="resetBtn">Limpiar</button>
+            </div>
+        </form>
+        <div class="error" id="error"></div>
+        <div class="characters-list" id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</div>
+
+</html>
